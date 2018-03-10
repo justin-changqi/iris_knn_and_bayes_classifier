@@ -61,3 +61,5 @@ if __name__ == "__main__":
                 k_accuracy[int((k-1)/2)] = k_accuracy[int((k-1)/2)] + correct/total
     for i in range(len(k_accuracy)):
         print ('K =',i*2+1, 'Accuracy:', k_accuracy[i]/loop_size)
+    plt.plot([1, 3, 5, 7, 9, 11, 13, 15], k_accuracy, 'bo-',)
+    plt.show()
