@@ -1,4 +1,3 @@
-http://ieeexplore.ieee.org/abstract/document/6873605/
 # Taipei Tech Machine Learning homework 1 source code
 ## System Environment
 - Ubuntu16.04 LTS
@@ -13,10 +12,16 @@ sudo pip3 install matplotlib
 ```
 
 ## Problam 2: K-NN Classification
+For execute the code
 ```
 python3 knn.py
 ```
 ## Problam 5:  Bayes Classifier for Continuous Data
+The main reference paper is [Naive Bayes Classifier for Continuous Variables
+using Novel Method (NBC4D) and Distributions
+](http://ieeexplore.ieee.org/abstract/document/6873605/).
+
+For execute the code 
 ```
 python3 naive_bayes_classifier_for_continuous.py
 ```
